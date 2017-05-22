@@ -1,10 +1,117 @@
 <DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset = "utf-8"/>
-		<title> ANKETA </title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Leteći medvjedići </title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel = "stylesheet" href = "css/style.css">
 	</head>
 	
 	<body>
+		<form class="form-horizontal">
+			<fieldset>
+
+			<!-- Form Name -->
+			<legend>Anketa</legend>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Unesite prvo pitanje</label>  
+			  <div class="col-md-4">
+			  <input id="textinput" name="textinput" type="text" placeholder="unesi..." class="form-control input-md">
+				
+			  </div>
+			</div>
+
+			<!-- Multiple Radios -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="radios">Višestruki izbor</label>
+			  <div class="col-md-4">
+			  <div class="radio">
+				<label for="radios-0">
+				  <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+				  1. izbor
+				</label>
+				</div>
+			  <div class="radio">
+				<label for="radios-1">
+				  <input type="radio" name="radios" id="radios-1" value="2">
+				  2. izbor
+				</label>
+				</div>
+			  <div class="radio">
+				<label for="radios-2">
+				  <input type="radio" name="radios" id="radios-2" value="3">
+				  3. izbor
+				</label>
+				</div>
+			  <div class="radio">
+				<label for="radios-3">
+				  <input type="radio" name="radios" id="radios-3" value="4">
+				  4. izbor
+				</label>
+				</div>
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Unesite drugo pitanje</label>  
+			  <div class="col-md-4">
+			  <input id="textinput" name="textinput" type="text" placeholder="unesi..." class="form-control input-md">
+				
+			  </div>
+			</div>
+
+			<!-- Multiple Checkboxes (inline) -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="checkboxes"></label>
+			  <div class="col-md-4">
+				<label class="checkbox-inline" for="checkboxes-0">
+				  <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+				  1
+				</label>
+				<label class="checkbox-inline" for="checkboxes-1">
+				  <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+				  2
+				</label>
+				<label class="checkbox-inline" for="checkboxes-2">
+				  <input type="checkbox" name="checkboxes" id="checkboxes-2" value="3">
+				  3
+				</label>
+				<label class="checkbox-inline" for="checkboxes-3">
+				  <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
+				  4
+				</label>
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Unesite treće pitanje:</label>  
+			  <div class="col-md-4">
+			  <input id="textinput" name="textinput" type="text" placeholder="unesi..." class="form-control input-md">
+				
+			  </div>
+			</div>
+
+			<!-- Select Basic -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="selectbasic">Odaberite:</label>
+			  <div class="col-md-4">
+				<select id="selectbasic" name="selectbasic" class="form-control">
+				  <option value="1">1. Izbor</option>
+				  <option value="2">2. Izbor</option>
+				  <option value="3">3. Izbor</option>
+				  <option value="4">4. Izbor</option>
+				</select>
+			  </div>
+			</div>
+
+			</fieldset>
+		</form>
+
 	</body>
 </html>
