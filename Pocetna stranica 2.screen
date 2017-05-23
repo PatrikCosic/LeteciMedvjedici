@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:VScrollbar" id="4" x="1913" y="161" height="794" measuredWidth="17" measuredHeight="794"/>
+  <widgets xsi:type="model:VideoPlayer" id="7" x="510" y="215" width="1301" height="544" measuredWidth="1301" measuredHeight="544"/>
+  <widgets xsi:type="model:Browser" id="19" x="89" y="10" width="1920" height="1080" text="Browser&#xA;http://..." measuredWidth="1920" measuredHeight="1080">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="99" y="72" text="Label" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HSplitter" id="21" x="94" y="151" width="1915" measuredWidth="1915" measuredHeight="11"/>
+  <widgets xsi:type="model:VScrollbar" id="22" x="1992" y="161" height="728" measuredWidth="17" measuredHeight="728"/>
+  <widgets xsi:type="model:Group" id="23" x="130" y="218" width="1800" height="633" text="Group" measuredWidth="1800" measuredHeight="633">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="24" x="177" y="199" width="233" text="1,2,3" measuredWidth="233" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="27" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="27" height="27" text="3"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VideoPlayer" id="25" x="569" y="247" width="1301" height="544" measuredWidth="1301" measuredHeight="544"/>
+  <widgets xsi:type="model:TextArea" id="26" x="161" y="250" width="369" height="537" text="&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut feugiat ex, a facilisis lacus. Sed ultrices erat at libero sagittis fermentum. Mauris ex massa, vehicula non diam at, vehicula molestie risus. Maecenas sit amet posuere felis. Quisque non orci libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus interdum dapibus odio non vulputate.&#xA;&#xA;Nullam sit amet neque at velit dictum euismod. Vivamus et blandit orci, eget sagittis diam. Donec suscipit ullamcorper accumsan. Sed rhoncus faucibus vehicula. Donec posuere turpis eu urna consequat vestibulum. Vestibulum eget aliquam dui, eget sollicitudin magna. Quisque elementum vestibulum lacus vel pulvinar. Nullam tincidunt congue semper. In posuere, eros eget efficitur porta, augue diam imperdiet mauris, eget dignissim sapien ipsum a velit.&#xA;&#xA;Vestibulum venenatis tortor cursus, iaculis tellus ut, convallis eros. Etiam luctus gravida lacinia. Morbi et laoreet arcu. Nunc finibus massa ac turpis dictum, vel molestie erat congue. Curabitur condimentum eros in blandit tincidunt. Phasellus pretium tortor leo, eu fermentum lacus efficitur eget. Etiam sagittis consectetur facilisis. Nam lectus felis, venenatis non tristique pretium, aliquam vitae felis. Nullam ac ipsum eget tellus porta interdum. Aliquam sed nunc felis. Sed et nibh sed dui sodales accumsan in et erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&#xA;&#xA;Sed volutpat, augue eget pulvinar interdum, mi nisl luctus enim, quis hendrerit justo lectus nec mi. Nam ipsum tortor, maximus non nulla at, venenatis scelerisque magna. Praesent malesuada tincidunt mauris porttitor lobortis. Pellentesque ut ante vitae justo efficitur pretium. Fusce eu nisl a elit faucibus venenatis. Maecenas feugiat iaculis interdum. Suspendisse sem dolor, volutpat at mattis sed, scelerisque ac ex. Curabitur nec tempus leo.&#xA;&#xA;Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent lobortis non ipsum ut luctus. Etiam sapien felis, interdum ultrices tempus id, commodo eget enim. Nullam id nunc a nulla imperdiet ultrices. Donec et sagittis erat. Ut consectetur vel arcu id luctus. Ut ante elit, efficitur vitae bibendum et, rutrum at risus. Cras efficitur lacus vel felis maximus, sed mollis est porttitor. Donec porta, nunc quis ullamcorper accumsan, est dolor euismod nisi, id porttitor ipsum neque in nibh. Aenean suscipit blandit diam, sed laoreet lacus finibus in. Donec rutrum tortor est, ut fringilla libero elementum quis. Vivamus commodo sapien sed ultrices varius. Maecenas vel nibh odio." measuredWidth="369" measuredHeight="537">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="449" y="72" text="Dobrodosli &quot;korisnik&quot;" measuredWidth="404" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="37" x="140" y="129" text="Naslovna,Forum,O nama,Kreiraj Anketu, Account settings" measuredWidth="396" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="70" height="27" text="Naslovna"/>
+    <items x="71" y="0" width="56" height="27" text="Forum"/>
+    <items x="127" y="0" width="63" height="27" text="O nama"/>
+    <items x="190" y="0" width="95" height="27" text="Kreiraj Anketu"/>
+    <items x="285" y="0" width="110" height="27" text="Account settings"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="45" x="1746" y="81" text="Currently logged in as:" measuredWidth="130" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="46" x="1888" y="81" text="&quot;Korisnik&quot;" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HSplitter" id="47" x="99" y="888" width="1910" measuredWidth="1910" measuredHeight="11"/>
+  <widgets xsi:type="model:Label" id="49" x="130" y="928" text="Label" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
