@@ -8,3 +8,17 @@ legend{
 	margin-right: 0px;
 	margin-left: 0 px;
 }
+
+.site-footer{
+	background-color: black;
+	color: white;
+	padding: 40px;
+}
+
+.glyphicon glyphicon-earphone{
+	font-size: 400px;
+}
+
+.box{
+	position: fixed;
+}
